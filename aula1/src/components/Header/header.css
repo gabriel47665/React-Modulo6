@@ -1,0 +1,28 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    background-color: blueviolet;
+}
+
+header ul{
+    display: flex;
+    gap: 26px;
+}
+
+header a{
+    color: #FFFFFF;
+    display: block;
+    padding: 0 26px;
+    line-height: 46px;
+}
