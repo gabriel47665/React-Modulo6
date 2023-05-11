@@ -14,7 +14,7 @@ const Header = () => {
                     </div>
                     {logado && 
                         <div className="perfil">
-                            <h5>bem vindo(a) {nome}</h5>
+                            <h5>Bem vindo(a) {nome}!</h5>
                         </div>
                     }
                     <ul>

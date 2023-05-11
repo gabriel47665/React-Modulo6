@@ -13,3 +13,18 @@ main{
   right: 0;
   padding: 60px;
 }
+
+button{
+  line-height: 50px;
+  padding: 0 26px;
+  color: blueviolet;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid blueviolet;
+  background-color: transparent;
+}
+
+button.active{
+  background-color: blueviolet;
+  color: white;
+}
